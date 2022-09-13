@@ -1,0 +1,32 @@
+This is a version branch problem. At this time, we only need to create a new branch, switch branches twice, and delete the newly created branch to solve it!
+
+The command line is as follows:
+
+1. Create a new branch:
+
+$ git branch newbranch 
+2. Check whether the branch is successfully created:
+
+$ git branch
+3. Switch to the new branch:
+
+$ git checkout newbranch
+4. Add and submit the code to the new branch:
+
+$ git add . 
+$ git commit -m new branch
+5. Git status check is successful:
+
+$ git status
+6. Switch to the main branch:
+
+$ git checkout master 
+7. Merge the code submitted by the new branch to the main branch:
+
+$ git merge newbranch 
+8. Push code:
+
+$ git push origin master
+9. You can delete the branch according to your own situation:
+
+$ git branch -D newbranch
