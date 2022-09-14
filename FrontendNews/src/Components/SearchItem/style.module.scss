@@ -1,0 +1,54 @@
+.wapper {
+    padding: 3px 2px;
+    max-height: 600px;
+    min-width: 353px;
+}
+
+.wapper .box-item:hover {
+    background: rgba(27, 168, 255, 0.1);
+}
+
+.box-item {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 60px;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    z-index: 99999;
+}
+
+.result-item {
+    margin-left: 10px;
+}
+
+.icon-search {
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+}
+.icon-search :hover {
+    background: gray;
+}
+
+.result-item {
+    display: flex;
+    align-items: center;
+}
+
+.result-item h4 {
+    color: gray;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.img-product {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
